@@ -1,8 +1,8 @@
+using ApiApp.interfaces;
+using ApiApp.models;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.interfaces;
-using WebApplication1.models;
 
-namespace WebApplication1.controllers;
+namespace ApiApp.controllers;
 
 [ApiController]
 [Route("/animals")]
